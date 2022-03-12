@@ -3,8 +3,12 @@
 // Created on: March 11 2022
 // This file contains the JS functions for index.html
 
-function CalculateClicked() {
-  // this function calculates the area and perimeter of the rectangle
+function AreaClicked() {
+  // this function calculates the area of the rectangle
   document.getElementById('area').innerHTML = 'The area is ' + (7 * 4)
+}
+
+function PerimeterClicked() {
+  // this function calculates the perimeter of the rectangle
   document.getElementById('perimeter').innerHTML = 'The perimeter is ' + (7 + 7 + 4 + 4)
 }
