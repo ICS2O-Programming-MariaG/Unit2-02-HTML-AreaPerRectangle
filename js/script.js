@@ -5,10 +5,10 @@
 
 function AreaClicked() {
   // this function calculates the area of the rectangle
-  document.getElementById('area').innerHTML = 'The area is ' + (7 * 4)
+  document.getElementById('area').innerHTML = 'The area is ' + (7 * 4) + 'cm' + '2'.sup(2) + '.'
 }
 
 function PerimeterClicked() {
   // this function calculates the perimeter of the rectangle
-  document.getElementById('perimeter').innerHTML = 'The perimeter is ' + (7 + 7 + 4 + 4)
+  document.getElementById('perimeter').innerHTML = 'The perimeter is ' + (7 + 7 + 4 + 4) + 'cm.'
 }
